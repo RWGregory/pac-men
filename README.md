@@ -1,9 +1,9 @@
-# pacmen
-Factory for making pacmen
-You are given a starter.html code.
-When button "make one" is pressed you need to complete the code 
-to position the new pacman image and add it to the "game" div. It is then added to the array of pacmen, which keeps track of the position and velocity of each pacman.
-You also need to make each pacman bounce off any wall it hits. 
-Start by getting at least one pacman positioned and viewable. 
+# PacMen
 
-<img src="PacMan1.png">
+## This project gives the user a button to generate PacMen one a time and another to put the Pacmen in motion.  Each PacMan is initalized with a randomized location, direction and velocity. PacMen bounce of the walls of our window, reversing direction when the edge is detected. Through this project, I learned how to make a factory of elements, how to use callback functions, how to generate motion, and how to detect edges.
+
+### In the future I plan to advance this concept by using multiple images to animate PacMan so that he chomps across the screen and reverses direction when he reaches the screen's right edge.  
+
+### To run this project, fork this repository, download the folder locally, and open the index.html in your browser. 
+
+<img src="./images/PacMan1.png" width="200">
