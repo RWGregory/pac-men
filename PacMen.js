@@ -26,11 +26,8 @@ function makePac() {
   newimg.style.position = 'absolute';
   newimg.src = './images/PacMan1.png';
   newimg.width = 100;
-
   newimg.style.left = position.x;
   newimg.style.top = position.y;
-
-  // TODO add new Child image to game
   game.appendChild(newimg);
 
   // return details in an object
@@ -47,7 +44,6 @@ function update() {
     checkCollisions(item);
     item.position.x += item.velocity.x;
     item.position.y += item.velocity.y;
-
     item.newimg.style.left = item.position.x;
     item.newimg.style.top = item.position.y;
   });
