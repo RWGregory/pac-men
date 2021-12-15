@@ -9,8 +9,8 @@
 
 ###### To run this project: 
 
-###### From GitHub, fork this repository, download the folder locally, and open the index.html in your browser.
+###### fork this repository, download the folder locally, and open the index.html in your browser.
 
-###### From RWGregory.github.io, simply click here to open the project in a new tab.
+###### or run the project at [RWGregory.github.io](https://RWGregory.github.io)
 
 <img src="./images/PacMan1.png" width="200">
